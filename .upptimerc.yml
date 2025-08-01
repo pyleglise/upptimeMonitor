@@ -71,9 +71,18 @@ status-website:
           <p><strong>Prochaine vérification :</strong> <span id="next-check">Calcul en cours...</span></p>
         `;
         
-        // Insérer le widget en haut de la page
-        const container = document.querySelector('.container') || document.body;
-        container.insertBefore(widget, container.firstChild);
+        // Essayer plusieurs sélecteurs pour trouver le bon conteneur
+        let container = document.querySelector('main') || 
+                       document.querySelector('.container') || 
+                       document.querySelector('#content') ||
+                       document.querySelector('body');
+        
+        if (container) {
+          container.insertBefore(widget, container.firstChild);
+          console.log('Widget créé avec succès');
+        } else {
+          console.log('Aucun conteneur trouvé pour le widget');
+        }
       }
     }
     
@@ -82,26 +91,29 @@ status-website:
         // Créer le widget si nécessaire
         createCheckTimesWidget();
         
-        // Récupérer les données de l'API Upptime
-        const response = await fetch('./api/summary.json');
-        const data = await response.json();
+        // Calculer les heures basées sur l'intervalle de 5 minutes
+        const now = new Date();
+        const lastCheck = new Date(now.getTime() - 5 * 60 * 1000);
+        const nextCheck = new Date(now.getTime() + 5 * 60 * 1000);
         
-        if (data && data.length > 0) {
-          // Calculer les heures basées sur l'intervalle de 5 minutes
-          const now = new Date();
-          const lastCheck = new Date(now.getTime() - 5 * 60 * 1000);
-          const nextCheck = new Date(now.getTime() + 5 * 60 * 1000);
-          
-          document.getElementById('last-check').textContent = lastCheck.toLocaleString('fr-FR');
-          document.getElementById('next-check').textContent = nextCheck.toLocaleString('fr-FR');
+        const lastCheckElement = document.getElementById('last-check');
+        const nextCheckElement = document.getElementById('next-check');
+        
+        if (lastCheckElement && nextCheckElement) {
+          lastCheckElement.textContent = lastCheck.toLocaleString('fr-FR');
+          nextCheckElement.textContent = nextCheck.toLocaleString('fr-FR');
         }
       } catch (error) {
-        console.log('Erreur lors de la récupération des données:', error);
+        console.log('Erreur lors de la mise à jour:', error);
       }
     }
     
-    // Créer le widget au chargement de la page
-    document.addEventListener('DOMContentLoaded', createCheckTimesWidget);
+    // Attendre que la page soit complètement chargée
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', createCheckTimesWidget);
+    } else {
+      createCheckTimesWidget();
+    }
     
     // Mettre à jour toutes les minutes
     setInterval(updateCheckTimes, 60000);
