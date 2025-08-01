@@ -46,9 +46,9 @@ status-website:
     </div>
   links:
     - rel: stylesheet
-      href: /upptimeMonitor/custom.css
+      href: https://pyleglise.github.io/upptimeMonitor/assets/custom.css
   scripts:
-    - src: /upptimeMonitor/custom.js
+    - src: https://pyleglise.github.io/upptimeMonitor/assets/custom.js
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
