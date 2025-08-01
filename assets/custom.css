@@ -1,38 +1,32 @@
-/* Styles pour le widget des heures de vérification */
+/* Styles pour le widget des heures de vérification - Thème sombre */
 .check-times {
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
+  background: #2d3748;
+  border: 1px solid #4a5568;
   border-radius: 8px;
-  padding: 15px;
-  margin: 20px 0;
+  padding: 12px 15px;
+  margin: 5px 0;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.check-times h3 {
-  margin: 0 0 10px 0;
-  color: #495057;
-  font-size: 18px;
-  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .check-times p {
-  margin: 8px 0;
-  font-size: 14px;
-  color: #6c757d;
+  margin: 0;
+  font-size: 13px;
+  color: #e2e8f0;
 }
 
 .check-times strong {
-  color: #495057;
+  color: #90cdf4;
   font-weight: 600;
 }
 
 /* Animation pour le chargement */
 .check-times span {
   transition: color 0.3s ease;
+  color: #a0aec0;
 }
 
 .check-times span:contains("Calcul en cours...") {
-  color: #6c757d;
+  color: #718096;
   font-style: italic;
 }

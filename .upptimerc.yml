@@ -25,6 +25,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
+  theme: dark
   baseUrl: /upptimeMonitor
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: "Moniteur de Statut"
@@ -40,9 +41,7 @@ status-website:
   # Widget personnalisé pour afficher les heures de vérification
   customBodyHtml: |
     <div id="check-times-widget" class="check-times">
-      <h3>🕐 Horaires de vérification</h3>
-      <p><strong>Dernière vérification :</strong> <span id="last-check">Calcul en cours...</span></p>
-      <p><strong>Prochaine vérification :</strong> <span id="next-check">Calcul en cours...</span></p>
+      <p><strong>Dernière vérification :</strong> <span id="last-check">Calcul en cours...</span> | <strong>Prochaine vérification :</strong> <span id="next-check">Calcul en cours...</span></p>
     </div>
   links:
     - rel: stylesheet
