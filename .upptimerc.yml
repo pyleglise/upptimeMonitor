@@ -35,8 +35,6 @@ status-website:
       href: /upptimeMonitor/
     - title: Force Check
       href: https://github.com/$OWNER/$REPO/actions/workflows/uptime.yml
-    - title: Données API
-      href: /upptimeMonitor/api/axialdata/uptime.json
     - title: axialdata
       href: https://www.axialdata.net
   # Widget personnalisé pour afficher les heures de vérification
@@ -48,9 +46,9 @@ status-website:
     </div>
   links:
     - rel: stylesheet
-      href: /upptimeMonitor/assets/custom.css
+      href: /upptimeMonitor/custom.css
   scripts:
-    - src: /upptimeMonitor/assets/custom.js
+    - src: /upptimeMonitor/custom.js
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
