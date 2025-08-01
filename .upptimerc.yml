@@ -2,11 +2,8 @@
 owner: pyleglise # Your GitHub organization or username, where this repository lives
 repo: upptimeMonitor # The name of this repository
 
-# Configuration des intervalles de surveillance
-schedules:
-  uptime: "*/5 * * * *"      # Toutes les 5 minutes
-  graphs: "*/5 * * * *"       # Toutes les 5 minutes  
-  summary: "*/5 * * * *"      # Toutes les 5 minutes
+# Note: Les intervalles sont configurés dans les workflows GitHub Actions
+# et ne peuvent pas être modifiés via la configuration .upptimerc.yml
 
 sites:
   - name: axialdata
@@ -38,86 +35,22 @@ status-website:
       href: /upptimeMonitor/
     - title: Force Check
       href: https://github.com/$OWNER/$REPO/actions/workflows/uptime.yml
+    - title: Données API
+      href: /upptimeMonitor/api/axialdata/uptime.json
     - title: axialdata
       href: https://www.axialdata.net
-  # Ajout d'un script personnalisé pour afficher les heures de vérification
-  customCSS: |
-    .check-times {
-      background: #f8f9fa;
-      border: 1px solid #dee2e6;
-      border-radius: 8px;
-      padding: 15px;
-      margin: 20px 0;
-      text-align: center;
-    }
-    .check-times h3 {
-      margin: 0 0 10px 0;
-      color: #495057;
-    }
-    .check-times p {
-      margin: 5px 0;
-      font-size: 14px;
-    }
-  customJS: |
-    function createCheckTimesWidget() {
-      // Créer le widget s'il n'existe pas déjà
-      if (!document.getElementById('check-times-widget')) {
-        const widget = document.createElement('div');
-        widget.id = 'check-times-widget';
-        widget.className = 'check-times';
-        widget.innerHTML = `
-          <h3>🕐 Horaires de vérification</h3>
-          <p><strong>Dernière vérification :</strong> <span id="last-check">Calcul en cours...</span></p>
-          <p><strong>Prochaine vérification :</strong> <span id="next-check">Calcul en cours...</span></p>
-        `;
-        
-        // Essayer plusieurs sélecteurs pour trouver le bon conteneur
-        let container = document.querySelector('main') || 
-                       document.querySelector('.container') || 
-                       document.querySelector('#content') ||
-                       document.querySelector('body');
-        
-        if (container) {
-          container.insertBefore(widget, container.firstChild);
-          console.log('Widget créé avec succès');
-        } else {
-          console.log('Aucun conteneur trouvé pour le widget');
-        }
-      }
-    }
-    
-    async function updateCheckTimes() {
-      try {
-        // Créer le widget si nécessaire
-        createCheckTimesWidget();
-        
-        // Calculer les heures basées sur l'intervalle de 5 minutes
-        const now = new Date();
-        const lastCheck = new Date(now.getTime() - 5 * 60 * 1000);
-        const nextCheck = new Date(now.getTime() + 5 * 60 * 1000);
-        
-        const lastCheckElement = document.getElementById('last-check');
-        const nextCheckElement = document.getElementById('next-check');
-        
-        if (lastCheckElement && nextCheckElement) {
-          lastCheckElement.textContent = lastCheck.toLocaleString('fr-FR');
-          nextCheckElement.textContent = nextCheck.toLocaleString('fr-FR');
-        }
-      } catch (error) {
-        console.log('Erreur lors de la mise à jour:', error);
-      }
-    }
-    
-    // Attendre que la page soit complètement chargée
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', createCheckTimesWidget);
-    } else {
-      createCheckTimesWidget();
-    }
-    
-    // Mettre à jour toutes les minutes
-    setInterval(updateCheckTimes, 60000);
-    updateCheckTimes();
+  # Widget personnalisé pour afficher les heures de vérification
+  customBodyHtml: |
+    <div id="check-times-widget" class="check-times">
+      <h3>🕐 Horaires de vérification</h3>
+      <p><strong>Dernière vérification :</strong> <span id="last-check">Calcul en cours...</span></p>
+      <p><strong>Prochaine vérification :</strong> <span id="next-check">Calcul en cours...</span></p>
+    </div>
+  links:
+    - rel: stylesheet
+      href: /upptimeMonitor/assets/custom.css
+  scripts:
+    - src: /upptimeMonitor/assets/custom.js
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
