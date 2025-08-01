@@ -2,6 +2,12 @@
 owner: pyleglise # Your GitHub organization or username, where this repository lives
 repo: upptimeMonitor # The name of this repository
 
+# Configuration des intervalles de surveillance
+schedules:
+  uptime: "*/5 * * * *"      # Toutes les 5 minutes
+  graphs: "*/5 * * * *"       # Toutes les 5 minutes  
+  summary: "*/5 * * * *"      # Toutes les 5 minutes
+
 sites:
   - name: axialdata
     url: https://www.axialdata.net/presentation
