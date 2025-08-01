@@ -1,20 +1,30 @@
-// Mise à jour des heures de vérification
-function updateCheckTimes() {
+// Update check times with real data from Upptime
+async function updateCheckTimes() {
   try {
-    // Calculer les heures basées sur l'intervalle de 5 minutes
-    const now = new Date()
-    const lastCheck = new Date(now.getTime() - 5 * 60 * 1000)
-    const nextCheck = new Date(now.getTime() + 5 * 60 * 1000)
+    // Fetch real data from GitHub Raw
+    const response = await fetch(
+      'https://raw.githubusercontent.com/pyleglise/upptimeMonitor/master/history/axialdata.yml',
+    )
+    const yamlText = await response.text()
 
-    const lastCheckElement = document.getElementById('last-check')
-    const nextCheckElement = document.getElementById('next-check')
+    // Extract lastUpdated from YAML
+    const lastUpdatedMatch = yamlText.match(/lastUpdated:\s*(.+)/)
+    if (lastUpdatedMatch) {
+      const lastCheckTime = new Date(lastUpdatedMatch[1])
 
-    if (lastCheckElement && nextCheckElement) {
-      lastCheckElement.textContent = lastCheck.toLocaleString('fr-FR')
-      nextCheckElement.textContent = nextCheck.toLocaleString('fr-FR')
+      // Calculate next check (5 minutes after the last one)
+      const nextCheckTime = new Date(lastCheckTime.getTime() + 5 * 60 * 1000)
+
+      const lastCheckElement = document.getElementById('last-check')
+      const nextCheckElement = document.getElementById('next-check')
+
+      if (lastCheckElement && nextCheckElement) {
+        lastCheckElement.textContent = lastCheckTime.toLocaleString('fr-FR')
+        nextCheckElement.textContent = nextCheckTime.toLocaleString('fr-FR')
+      }
     }
   } catch (error) {
-    console.log('Erreur lors de la mise à jour:', error)
+    console.log('Error fetching data:', error)
   }
 }
 
