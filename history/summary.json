@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/cff-to-pdf-api.fly.dev.ico",
     "slug": "cff-to-pdf-api-via-fly-io",
     "status": "up",
-    "uptime": "99.61%",
-    "uptimeDay": "97.79%",
-    "uptimeWeek": "99.61%",
-    "uptimeMonth": "99.61%",
-    "uptimeYear": "99.61%",
-    "time": 2231,
-    "timeDay": 12274,
-    "timeWeek": 2231,
-    "timeMonth": 2231,
-    "timeYear": 2231,
+    "uptime": "99.48%",
+    "uptimeDay": "97.03%",
+    "uptimeWeek": "99.48%",
+    "uptimeMonth": "99.48%",
+    "uptimeYear": "99.48%",
+    "time": 3035,
+    "timeDay": 12276,
+    "timeWeek": 3035,
+    "timeMonth": 3035,
+    "timeYear": 3035,
     "dailyMinutesDown": {
-      "2025-08-07": 32
+      "2025-08-07": 43
     }
   },
   {
