@@ -4,18 +4,20 @@
     "url": "https://www.axialdata.net/presentation",
     "icon": "https://icons.duckduckgo.com/ip3/www.axialdata.net.ico",
     "slug": "axialdata",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 819,
-    "timeDay": 1251,
-    "timeWeek": 1162,
-    "timeMonth": 819,
-    "timeYear": 819,
-    "dailyMinutesDown": {}
+    "time": 806,
+    "timeDay": 759,
+    "timeWeek": 1050,
+    "timeMonth": 806,
+    "timeYear": 806,
+    "dailyMinutesDown": {
+      "2025-08-25": 1
+    }
   },
   {
     "name": "CFF to PDF API via Fly.io",
@@ -23,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/cff-to-pdf-api.fly.dev.ico",
     "slug": "cff-to-pdf-api-via-fly-io",
     "status": "down",
-    "uptime": "26.03%",
+    "uptime": "25.23%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "26.03%",
-    "uptimeYear": "26.03%",
+    "uptimeMonth": "25.23%",
+    "uptimeYear": "25.23%",
     "time": 9884,
     "timeDay": 17683,
     "timeWeek": 18240,
     "timeMonth": 9884,
     "timeYear": 9884,
     "dailyMinutesDown": {
-      "2025-08-25": 106,
+      "2025-08-25": 1170,
       "2025-08-24": 1440,
       "2025-08-23": 1440,
       "2025-08-22": 1440,
@@ -60,43 +62,47 @@
     "url": "https://www.cdarbitration.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.cdarbitration.com.ico",
     "slug": "claire-debourg-arbitration",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2018,
-    "timeDay": 2005,
-    "timeWeek": 2108,
-    "timeMonth": 2018,
-    "timeYear": 2018,
-    "dailyMinutesDown": {}
+    "time": 1975,
+    "timeDay": 1120,
+    "timeWeek": 1874,
+    "timeMonth": 1975,
+    "timeYear": 1975,
+    "dailyMinutesDown": {
+      "2025-08-25": 0
+    }
   },
   {
     "name": "Vitrail Martinique",
     "url": "https://www.vitrailmartinique.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.vitrailmartinique.com.ico",
     "slug": "vitrail-martinique",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 368,
-    "timeDay": 298,
-    "timeWeek": 342,
-    "timeMonth": 368,
-    "timeYear": 368,
-    "dailyMinutesDown": {}
+    "time": 365,
+    "timeDay": 285,
+    "timeWeek": 333,
+    "timeMonth": 365,
+    "timeYear": 365,
+    "dailyMinutesDown": {
+      "2025-08-25": 0
+    }
   },
   {
     "name": "Ma Pause Mieux Etre",
     "url": "https://www.mapausemieuxetre.fr",
     "icon": "https://icons.duckduckgo.com/ip3/www.mapausemieuxetre.fr.ico",
     "slug": "ma-pause-mieux-etre",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -107,6 +113,8 @@
     "timeWeek": 642,
     "timeMonth": 675,
     "timeYear": 675,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-25": 0
+    }
   }
 ]
