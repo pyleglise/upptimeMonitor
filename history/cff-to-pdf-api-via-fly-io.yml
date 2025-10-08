@@ -1,7 +1,7 @@
 url: https://cff-to-pdf-api.fly.dev/api/v2/webhook/connect
-status: down
-code: 502
-responseTime: 23438
-lastUpdated: 2025-10-08T11:41:32.329Z
+status: up
+code: 200
+responseTime: 459
+lastUpdated: 2025-10-08T11:49:36.274Z
 startTime: 2025-08-01T19:07:32.289Z
 generator: Upptime <https://github.com/upptime/upptime>
