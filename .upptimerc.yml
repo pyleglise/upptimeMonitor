@@ -77,7 +77,7 @@ status-website:
   # Widget personnalisé pour afficher les heures de vérification
   customBodyHtml: |
     <div id="check-times-widget" class="check-times">
-      <p><strong>Dernière vérification :</strong> <span id="last-check">Calcul en cours...</span>             <strong>Prochaine vérification :</strong> <span id="next-check">Calcul en cours...</span></p>
+      <p><strong>Dernière vérification :</strong> <span id="last-check">Calcul en cours...</span></p>
     </div>
   links:
     - rel: stylesheet
