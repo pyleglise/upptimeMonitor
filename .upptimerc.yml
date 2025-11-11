@@ -36,13 +36,26 @@ sites:
     url: https://intranet.voilenature.com/
     check: "keyword"
     keyword: "Espace collaboratif réservé aux membres Voile Nature"
+  - name: Esprit Guitare
+    url: https://www.espritguitare.fr/rendez-vous/
+    check: "keyword"
+    keyword: "Choisissez la date et le créneau horaire"
+  - name: Franck Barros
+    url: hhttps://barros-music.com/
+    check: "keyword"
+    keyword: "Politique de confidentialité"
   - name: Claire Debourg Arbitration
     url: https://www.cdarbitration.com
+    check: "keyword"
+    keyword: "Claire Debourg Arbitration"
   - name: Vitrail Martinique
     url: https://www.vitrailmartinique.com
+    check: "keyword"
+    keyword: "Vitrail Martinique"
   - name: Ma Pause Mieux Etre
     url: https://www.mapausemieuxetre.fr
-
+    check: "keyword"
+    keyword: "Ma Pause Mieux Etre"
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
