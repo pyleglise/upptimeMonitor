@@ -3,7 +3,7 @@ async function updateCheckTimes() {
   try {
     // Fetch real data from GitHub Raw
     const response = await fetch(
-      'https://raw.githubusercontent.com/pyleglise/upptimeMonitor/master/history/axialdata.yml',
+      'https://raw.githubusercontent.com/pyleglise/upptimeMonitor/master/history/axialdata-website.yml',
     )
     const yamlText = await response.text()
 
