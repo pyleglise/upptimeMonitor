@@ -28,10 +28,14 @@ sites:
     url: https://axialquote.axialdata.app/
     check: "keyword"
     keyword: "Application de calcul de devis axialQuote par axialdata"
-  - name: axialQuote API
+  - name: axialQuote backend
     url: https://aq-api.axialdata.app/
     check: "keyword"
     keyword: "This API is strictly reserved for authorized users"
+  - name: Intranet Voile Nature
+    url: https://intranet.voilenature.com/
+    check: "keyword"
+    keyword: "Espace collaboratif réservé aux membres Voile Nature"
   - name: Claire Debourg Arbitration
     url: https://www.cdarbitration.com
   - name: Vitrail Martinique
