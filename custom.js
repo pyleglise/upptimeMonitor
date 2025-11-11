@@ -19,7 +19,7 @@ async function updateCheckTimes() {
 			const lastCheckElement = document.getElementById('last-check')
 			// const nextCheckElement = document.getElementById('next-check')
 
-			if (lastCheckElement && nextCheckElement) {
+			if (lastCheckElement) {
 				lastCheckElement.textContent = lastCheckTime.toLocaleString('fr-FR')
 				// nextCheckElement.textContent = nextCheckTime.toLocaleString('fr-FR')
 			}
