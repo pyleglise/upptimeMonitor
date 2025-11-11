@@ -41,7 +41,7 @@ sites:
     check: "keyword"
     keyword: "Choisissez la date et le créneau horaire"
   - name: Franck Barros
-    url: hhttps://barros-music.com/
+    url: https://barros-music.com/
     check: "keyword"
     keyword: "Politique de"
   - name: Claire Debourg Arbitration
