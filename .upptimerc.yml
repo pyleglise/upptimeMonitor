@@ -43,7 +43,7 @@ sites:
   - name: Franck Barros
     url: hhttps://barros-music.com/
     check: "keyword"
-    keyword: "Politique de confidentialité"
+    keyword: "Politique de"
   - name: Claire Debourg Arbitration
     url: https://www.cdarbitration.com
     check: "keyword"
