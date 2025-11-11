@@ -41,19 +41,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/flexicom.mondialparebrise.app.ico",
     "slug": "flexi-com-frontend",
     "status": "up",
-    "uptime": "6.43%",
-    "uptimeDay": "6.43%",
-    "uptimeWeek": "6.43%",
-    "uptimeMonth": "6.43%",
-    "uptimeYear": "6.43%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 409,
     "timeDay": 409,
     "timeWeek": 409,
     "timeMonth": 409,
     "timeYear": 409,
-    "dailyMinutesDown": {
-      "2025-11-11": 2
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "flexiCom backend",
