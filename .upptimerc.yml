@@ -6,14 +6,32 @@ repo: upptimeMonitor # The name of this repository
 # et ne peuvent pas être modifiés via la configuration .upptimerc.yml
 
 sites:
-  - name: axialdata
+  - name: axialdata Website
     url: https://www.axialdata.net/presentation
     check: "keyword"
     keyword: "A propos de axialdata"
-  - name: CFF to PDF API via Fly.io
-    url: https://cff-to-pdf-api.fly.dev/api/v2/webhook/connect
+  - name: Portfolio Pierre-Yves Léglise
+    url: https://www.axialdata.app/
     check: "keyword"
-    keyword: "Authorized users only"
+    keyword: "const userInfo = { Portfolio_v"
+  - name : flexiCom frontend
+    url: hhttps://flexicom.mondialparebrise.app/
+    check: "keyword"
+    keyword: "En utilisant flexiCom vous acceptez les conditions générales d'utilisation"
+  - name: flexiCom backend
+    url: https://flexicom-api.mondialparebrise.app/api/v1/session/by-cookie
+    # check: "status"
+    # status: 304
+    check: "body.byCookieUnavailable"
+    body.byCookieUnavailable: true
+  - name: axialQuote frontend
+    url: https://axialquote.axialdata.app/
+    check: "keyword"
+    keyword: "Application de calcul de devis axialQuote par axialdata"
+  - name: axialQuote API
+    url: https://aq-api.axialdata.app/
+    check: "keyword"
+    keyword: "This API is strictly reserved for authorized users"
   - name: Claire Debourg Arbitration
     url: https://www.cdarbitration.com
   - name: Vitrail Martinique
