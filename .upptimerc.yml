@@ -15,7 +15,7 @@ sites:
     check: "keyword"
     keyword: "const userInfo = { Portfolio_v"
   - name : flexiCom frontend
-    url: hhttps://flexicom.mondialparebrise.app/
+    url: https://flexicom.mondialparebrise.app/
     check: "keyword"
     keyword: "En utilisant flexiCom vous acceptez les conditions générales d'utilisation"
   - name: flexiCom backend
