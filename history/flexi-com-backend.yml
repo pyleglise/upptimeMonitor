@@ -1,7 +1,7 @@
 url: https://flexicom-api.mondialparebrise.app/api/v1/session/by-cookie
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-02-11T15:11:33.303Z
+status: up
+code: 200
+responseTime: 481
+lastUpdated: 2026-02-11T17:18:57.337Z
 startTime: 2025-11-11T15:35:39.457Z
 generator: Upptime <https://github.com/upptime/upptime>
