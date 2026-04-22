@@ -1,7 +1,7 @@
 url: https://www.espritguitare.fr/rendez-vous/
-status: up
-code: 200
-responseTime: 1155
-lastUpdated: 2026-04-21T23:33:36.758Z
+status: down
+code: 504
+responseTime: 10249
+lastUpdated: 2026-04-22T16:44:57.140Z
 startTime: 2025-11-11T21:29:02.984Z
 generator: Upptime <https://github.com/upptime/upptime>
