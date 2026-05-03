@@ -1,7 +1,7 @@
 url: https://flexicom.mondialparebrise.app/
-status: up
-code: 200
-responseTime: 380
-lastUpdated: 2026-05-03T10:13:48.442Z
+status: down
+code: 503
+responseTime: 491
+lastUpdated: 2026-05-03T11:07:54.805Z
 startTime: 2025-11-11T15:35:37.798Z
 generator: Upptime <https://github.com/upptime/upptime>
