@@ -4,16 +4,16 @@
     "url": "https://www.axialdata.net/presentation",
     "icon": "https://icons.duckduckgo.com/ip3/www.axialdata.net.ico",
     "slug": "axialdata-website",
-    "status": "down",
-    "uptime": "95.00%",
-    "uptimeDay": "83.30%",
-    "uptimeWeek": "86.16%",
+    "status": "up",
+    "uptime": "94.99%",
+    "uptimeDay": "81.61%",
+    "uptimeWeek": "85.92%",
     "uptimeMonth": "83.21%",
-    "uptimeYear": "95.00%",
+    "uptimeYear": "94.99%",
     "time": 773,
-    "timeDay": 332,
+    "timeDay": 352,
     "timeWeek": 417,
-    "timeMonth": 452,
+    "timeMonth": 447,
     "timeYear": 773,
     "dailyMinutesDown": {
       "2026-04-14": 524,
@@ -75,7 +75,7 @@
       "2026-07-04": 164,
       "2026-07-05": 309,
       "2026-07-09": 682,
-      "2026-07-10": 241
+      "2026-07-10": 265
     }
   },
   {
@@ -83,17 +83,17 @@
     "url": "https://www.axialdata.app/",
     "icon": "https://icons.duckduckgo.com/ip3/www.axialdata.app.ico",
     "slug": "portfolio-pierre-yves-leglise",
-    "status": "down",
-    "uptime": "94.54%",
-    "uptimeDay": "83.97%",
-    "uptimeWeek": "86.50%",
+    "status": "up",
+    "uptime": "94.53%",
+    "uptimeDay": "82.28%",
+    "uptimeWeek": "86.26%",
     "uptimeMonth": "83.30%",
-    "uptimeYear": "94.54%",
-    "time": 1299,
-    "timeDay": 1354,
-    "timeWeek": 1073,
-    "timeMonth": 1138,
-    "timeYear": 1299,
+    "uptimeYear": "94.53%",
+    "time": 1298,
+    "timeDay": 1190,
+    "timeWeek": 1058,
+    "timeMonth": 1136,
+    "timeYear": 1298,
     "dailyMinutesDown": {
       "2026-04-12": 26,
       "2026-04-13": 259,
@@ -154,7 +154,7 @@
       "2026-07-04": 154,
       "2026-07-05": 300,
       "2026-07-09": 677,
-      "2026-07-10": 231
+      "2026-07-10": 255
     }
   },
   {
@@ -162,16 +162,16 @@
     "url": "https://flexicom.mondialparebrise.app/",
     "icon": "https://icons.duckduckgo.com/ip3/flexicom.mondialparebrise.app.ico",
     "slug": "flexi-com-frontend",
-    "status": "down",
-    "uptime": "95.11%",
-    "uptimeDay": "84.64%",
-    "uptimeWeek": "86.83%",
+    "status": "up",
+    "uptime": "95.10%",
+    "uptimeDay": "82.95%",
+    "uptimeWeek": "86.59%",
     "uptimeMonth": "83.83%",
-    "uptimeYear": "95.11%",
+    "uptimeYear": "95.10%",
     "time": 571,
-    "timeDay": 674,
-    "timeWeek": 526,
-    "timeMonth": 562,
+    "timeDay": 595,
+    "timeWeek": 520,
+    "timeMonth": 561,
     "timeYear": 571,
     "dailyMinutesDown": {
       "2026-04-12": 26,
@@ -232,7 +232,7 @@
       "2026-07-04": 144,
       "2026-07-05": 290,
       "2026-07-09": 672,
-      "2026-07-10": 221
+      "2026-07-10": 245
     }
   },
   {
@@ -240,16 +240,16 @@
     "url": "https://flexicom-api.mondialparebrise.app/api/v1/session/by-cookie",
     "icon": "https://icons.duckduckgo.com/ip3/flexicom-api.mondialparebrise.app.ico",
     "slug": "flexi-com-backend",
-    "status": "down",
-    "uptime": "95.21%",
-    "uptimeDay": "85.30%",
-    "uptimeWeek": "87.17%",
+    "status": "up",
+    "uptime": "95.20%",
+    "uptimeDay": "83.62%",
+    "uptimeWeek": "86.93%",
     "uptimeMonth": "84.36%",
-    "uptimeYear": "95.21%",
+    "uptimeYear": "95.20%",
     "time": 528,
-    "timeDay": 671,
-    "timeWeek": 548,
-    "timeMonth": 600,
+    "timeDay": 592,
+    "timeWeek": 540,
+    "timeMonth": 601,
     "timeYear": 528,
     "dailyMinutesDown": {
       "2026-04-12": 71,
@@ -310,7 +310,7 @@
       "2026-07-04": 134,
       "2026-07-05": 280,
       "2026-07-09": 667,
-      "2026-07-10": 211
+      "2026-07-10": 236
     }
   },
   {
@@ -318,15 +318,15 @@
     "url": "https://axialquote.axialdata.app/",
     "icon": "https://icons.duckduckgo.com/ip3/axialquote.axialdata.app.ico",
     "slug": "axial-quote-frontend",
-    "status": "down",
-    "uptime": "94.86%",
-    "uptimeDay": "85.97%",
-    "uptimeWeek": "87.50%",
+    "status": "up",
+    "uptime": "94.85%",
+    "uptimeDay": "84.29%",
+    "uptimeWeek": "87.26%",
     "uptimeMonth": "84.89%",
-    "uptimeYear": "94.86%",
+    "uptimeYear": "94.85%",
     "time": 523,
-    "timeDay": 620,
-    "timeWeek": 537,
+    "timeDay": 576,
+    "timeWeek": 534,
     "timeMonth": 543,
     "timeYear": 523,
     "dailyMinutesDown": {
@@ -388,7 +388,7 @@
       "2026-07-04": 126,
       "2026-07-05": 270,
       "2026-07-09": 662,
-      "2026-07-10": 202
+      "2026-07-10": 227
     }
   },
   {
@@ -428,7 +428,7 @@
       "2026-02-14": 225,
       "2026-02-15": 208,
       "2026-02-16": 73,
-      "2026-07-10": 1328,
+      "2026-07-10": 1353,
       "2026-07-09": 1440,
       "2026-07-08": 1440,
       "2026-07-07": 1440,
@@ -579,17 +579,17 @@
     "url": "https://intranet.voilenature.com/",
     "icon": "https://icons.duckduckgo.com/ip3/intranet.voilenature.com.ico",
     "slug": "intranet-voile-nature",
-    "status": "down",
-    "uptime": "95.47%",
-    "uptimeDay": "87.30%",
-    "uptimeWeek": "88.16%",
+    "status": "up",
+    "uptime": "95.46%",
+    "uptimeDay": "85.61%",
+    "uptimeWeek": "87.92%",
     "uptimeMonth": "86.03%",
-    "uptimeYear": "95.47%",
-    "time": 666,
-    "timeDay": 1110,
-    "timeWeek": 757,
+    "uptimeYear": "95.46%",
+    "time": 665,
+    "timeDay": 903,
+    "timeWeek": 738,
     "timeMonth": 827,
-    "timeYear": 666,
+    "timeYear": 665,
     "dailyMinutesDown": {
       "2026-04-11": 107,
       "2026-04-12": 287,
@@ -648,7 +648,7 @@
       "2026-07-04": 106,
       "2026-07-05": 252,
       "2026-07-09": 653,
-      "2026-07-10": 183
+      "2026-07-10": 207
     }
   },
   {
@@ -656,16 +656,16 @@
     "url": "https://www.espritguitare.fr/rendez-vous/",
     "icon": "https://icons.duckduckgo.com/ip3/www.espritguitare.fr.ico",
     "slug": "esprit-guitare",
-    "status": "down",
+    "status": "up",
     "uptime": "95.51%",
-    "uptimeDay": "87.32%",
-    "uptimeWeek": "88.17%",
+    "uptimeDay": "85.63%",
+    "uptimeWeek": "87.93%",
     "uptimeMonth": "86.43%",
     "uptimeYear": "95.51%",
     "time": 674,
-    "timeDay": 245,
-    "timeWeek": 326,
-    "timeMonth": 349,
+    "timeDay": 243,
+    "timeWeek": 322,
+    "timeMonth": 346,
     "timeYear": 674,
     "dailyMinutesDown": {
       "2026-04-11": 107,
@@ -726,7 +726,7 @@
       "2026-07-04": 106,
       "2026-07-05": 251,
       "2026-07-09": 653,
-      "2026-07-10": 183
+      "2026-07-10": 207
     }
   },
   {
@@ -734,15 +734,15 @@
     "url": "https://barros-music.com/",
     "icon": "https://icons.duckduckgo.com/ip3/barros-music.com.ico",
     "slug": "franck-barros",
-    "status": "down",
-    "uptime": "95.07%",
-    "uptimeDay": "87.99%",
-    "uptimeWeek": "88.51%",
-    "uptimeMonth": "86.21%",
-    "uptimeYear": "95.07%",
+    "status": "up",
+    "uptime": "95.06%",
+    "uptimeDay": "86.30%",
+    "uptimeWeek": "88.27%",
+    "uptimeMonth": "86.20%",
+    "uptimeYear": "95.06%",
     "time": 858,
-    "timeDay": 1043,
-    "timeWeek": 772,
+    "timeDay": 895,
+    "timeWeek": 760,
     "timeMonth": 802,
     "timeYear": 858,
     "dailyMinutesDown": {
@@ -805,7 +805,7 @@
       "2026-07-04": 96,
       "2026-07-05": 242,
       "2026-07-09": 648,
-      "2026-07-10": 173
+      "2026-07-10": 197
     }
   },
   {
@@ -813,16 +813,16 @@
     "url": "https://www.cdarbitration.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.cdarbitration.com.ico",
     "slug": "claire-debourg-arbitration",
-    "status": "down",
+    "status": "up",
     "uptime": "96.94%",
-    "uptimeDay": "88.01%",
-    "uptimeWeek": "88.52%",
+    "uptimeDay": "86.33%",
+    "uptimeWeek": "88.28%",
     "uptimeMonth": "86.59%",
     "uptimeYear": "96.94%",
     "time": 1440,
-    "timeDay": 621,
-    "timeWeek": 875,
-    "timeMonth": 890,
+    "timeDay": 744,
+    "timeWeek": 892,
+    "timeMonth": 888,
     "timeYear": 1440,
     "dailyMinutesDown": {
       "2026-04-15": 242,
@@ -884,7 +884,7 @@
       "2026-07-04": 96,
       "2026-07-05": 241,
       "2026-07-09": 648,
-      "2026-07-10": 173
+      "2026-07-10": 197
     }
   },
   {
@@ -892,16 +892,16 @@
     "url": "https://www.vitrailmartinique.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.vitrailmartinique.com.ico",
     "slug": "vitrail-martinique",
-    "status": "down",
+    "status": "up",
     "uptime": "96.60%",
-    "uptimeDay": "88.03%",
-    "uptimeWeek": "88.53%",
+    "uptimeDay": "86.35%",
+    "uptimeWeek": "88.29%",
     "uptimeMonth": "87.08%",
     "uptimeYear": "96.60%",
     "time": 328,
-    "timeDay": 163,
-    "timeWeek": 246,
-    "timeMonth": 210,
+    "timeDay": 177,
+    "timeWeek": 245,
+    "timeMonth": 206,
     "timeYear": 328,
     "dailyMinutesDown": {
       "2026-04-06": 54,
@@ -963,7 +963,7 @@
       "2026-07-04": 96,
       "2026-07-05": 240,
       "2026-07-09": 647,
-      "2026-07-10": 173
+      "2026-07-10": 197
     }
   },
   {
@@ -971,16 +971,16 @@
     "url": "https://www.mapausemieuxetre.fr",
     "icon": "https://icons.duckduckgo.com/ip3/www.mapausemieuxetre.fr.ico",
     "slug": "ma-pause-mieux-etre",
-    "status": "down",
+    "status": "up",
     "uptime": "96.90%",
-    "uptimeDay": "88.69%",
-    "uptimeWeek": "88.87%",
+    "uptimeDay": "87.02%",
+    "uptimeWeek": "88.63%",
     "uptimeMonth": "86.74%",
     "uptimeYear": "96.90%",
     "time": 838,
-    "timeDay": 870,
-    "timeWeek": 726,
-    "timeMonth": 758,
+    "timeDay": 743,
+    "timeWeek": 710,
+    "timeMonth": 756,
     "timeYear": 838,
     "dailyMinutesDown": {
       "2026-04-26": 103,
@@ -1041,7 +1041,7 @@
       "2026-07-04": 86,
       "2026-07-05": 231,
       "2026-07-09": 643,
-      "2026-07-10": 163
+      "2026-07-10": 187
     }
   }
 ]
