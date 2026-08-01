@@ -396,7 +396,7 @@
       "2026-02-14": 225,
       "2026-02-15": 208,
       "2026-02-16": 73,
-      "2026-08-01": 1303,
+      "2026-08-01": 1353,
       "2026-07-31": 1440,
       "2026-07-30": 1440,
       "2026-07-29": 1440,
@@ -723,16 +723,16 @@
     "url": "https://barros-music.com/",
     "icon": "https://icons.duckduckgo.com/ip3/barros-music.com.ico",
     "slug": "franck-barros",
-    "status": "down",
-    "uptime": "96.96%",
-    "uptimeDay": "96.98%",
-    "uptimeWeek": "89.88%",
-    "uptimeMonth": "92.17%",
-    "uptimeYear": "96.96%",
+    "status": "up",
+    "uptime": "96.94%",
+    "uptimeDay": "93.58%",
+    "uptimeWeek": "89.40%",
+    "uptimeMonth": "92.06%",
+    "uptimeYear": "96.94%",
     "time": 856,
-    "timeDay": 790,
-    "timeWeek": 827,
-    "timeMonth": 805,
+    "timeDay": 804,
+    "timeWeek": 828,
+    "timeMonth": 806,
     "timeYear": 856,
     "dailyMinutesDown": {
       "2026-05-29": 152,
@@ -787,7 +787,7 @@
       "2026-07-29": 324,
       "2026-07-30": 16,
       "2026-07-31": 184,
-      "2026-08-01": 44
+      "2026-08-01": 93
     }
   },
   {
@@ -795,17 +795,17 @@
     "url": "https://www.cdarbitration.com",
     "icon": "https://icons.duckduckgo.com/ip3/www.cdarbitration.com.ico",
     "slug": "claire-debourg-arbitration",
-    "status": "down",
-    "uptime": "97.70%",
-    "uptimeDay": "99.61%",
-    "uptimeWeek": "91.27%",
-    "uptimeMonth": "92.53%",
-    "uptimeYear": "97.70%",
+    "status": "up",
+    "uptime": "97.69%",
+    "uptimeDay": "96.21%",
+    "uptimeWeek": "90.78%",
+    "uptimeMonth": "92.42%",
+    "uptimeYear": "97.69%",
     "time": 1478,
-    "timeDay": 4052,
-    "timeWeek": 2197,
-    "timeMonth": 1854,
-    "timeYear": 1472,
+    "timeDay": 3503,
+    "timeWeek": 2150,
+    "timeMonth": 1848,
+    "timeYear": 1471,
     "dailyMinutesDown": {
       "2026-05-19": 146,
       "2026-05-20": 762,
@@ -861,7 +861,7 @@
       "2026-07-28": 204,
       "2026-07-29": 318,
       "2026-07-31": 162,
-      "2026-08-01": 6
+      "2026-08-01": 55
     }
   },
   {
@@ -954,17 +954,17 @@
     "url": "https://www.mapausemieuxetre.fr",
     "icon": "https://icons.duckduckgo.com/ip3/www.mapausemieuxetre.fr.ico",
     "slug": "ma-pause-mieux-etre",
-    "status": "down",
-    "uptime": "97.71%",
-    "uptimeDay": "99.93%",
-    "uptimeWeek": "92.08%",
-    "uptimeMonth": "93.18%",
-    "uptimeYear": "97.71%",
+    "status": "up",
+    "uptime": "97.70%",
+    "uptimeDay": "96.54%",
+    "uptimeWeek": "91.60%",
+    "uptimeMonth": "93.06%",
+    "uptimeYear": "97.70%",
     "time": 835,
-    "timeDay": 785,
-    "timeWeek": 825,
+    "timeDay": 780,
+    "timeWeek": 822,
     "timeMonth": 774,
-    "timeYear": 837,
+    "timeYear": 838,
     "dailyMinutesDown": {
       "2026-05-19": 218,
       "2026-05-20": 742,
@@ -1020,7 +1020,7 @@
       "2026-07-28": 174,
       "2026-07-29": 308,
       "2026-07-31": 152,
-      "2026-08-01": 1
+      "2026-08-01": 50
     }
   }
 ]
