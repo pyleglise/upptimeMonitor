@@ -384,7 +384,7 @@
       "2026-02-14": 225,
       "2026-02-15": 208,
       "2026-02-16": 73,
-      "2026-08-13": 29,
+      "2026-08-13": 126,
       "2026-08-12": 1440,
       "2026-08-11": 1440,
       "2026-08-10": 1440,
@@ -774,18 +774,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.cdarbitration.com.ico",
     "slug": "claire-debourg-arbitration",
     "status": "up",
-    "uptime": "97.92%",
-    "uptimeDay": "99.18%",
-    "uptimeWeek": "94.17%",
-    "uptimeMonth": "93.12%",
-    "uptimeYear": "97.86%",
+    "uptime": "97.82%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "94.29%",
+    "uptimeMonth": "93.15%",
+    "uptimeYear": "97.75%",
     "time": 1481,
     "timeDay": 1157,
     "timeWeek": 1629,
     "timeMonth": 2213,
     "timeYear": 1470,
     "dailyMinutesDown": {
-      "2026-06-03": 163,
+      "2026-06-03": 728,
       "2026-06-04": 913,
       "2026-06-06": 63,
       "2026-06-07": 348,
@@ -841,8 +841,7 @@
       "2026-08-07": 187,
       "2026-08-09": 92,
       "2026-08-10": 69,
-      "2026-08-11": 61,
-      "2026-08-13": 12
+      "2026-08-11": 61
     }
   },
   {
@@ -851,17 +850,20 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.vitrailmartinique.com.ico",
     "slug": "vitrail-martinique",
     "status": "up",
-    "uptime": "97.82%",
-    "uptimeDay": "99.51%",
-    "uptimeWeek": "94.42%",
-    "uptimeMonth": "93.85%",
-    "uptimeYear": "97.76%",
+    "uptime": "97.10%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "94.49%",
+    "uptimeMonth": "93.86%",
+    "uptimeYear": "97.01%",
     "time": 327,
     "timeDay": 168,
     "timeWeek": 297,
     "timeMonth": 333,
     "timeYear": 326,
     "dailyMinutesDown": {
+      "2026-05-09": 1081,
+      "2026-05-08": 1440,
+      "2026-05-07": 1439,
       "2026-05-10": 23,
       "2026-05-20": 69,
       "2026-05-22": 112,
@@ -921,8 +923,7 @@
       "2026-08-07": 177,
       "2026-08-09": 87,
       "2026-08-10": 64,
-      "2026-08-11": 61,
-      "2026-08-13": 7
+      "2026-08-11": 61
     }
   },
   {
@@ -931,9 +932,9 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.mapausemieuxetre.fr.ico",
     "slug": "ma-pause-mieux-etre",
     "status": "up",
-    "uptime": "97.83%",
-    "uptimeDay": "99.85%",
-    "uptimeWeek": "96.92%",
+    "uptime": "97.82%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "96.94%",
     "uptimeMonth": "94.72%",
     "uptimeYear": "97.76%",
     "time": 836,
@@ -942,6 +943,7 @@
     "timeMonth": 821,
     "timeYear": 840,
     "dailyMinutesDown": {
+      "2026-05-23": 24,
       "2026-05-24": 71,
       "2026-05-29": 148,
       "2026-05-30": 118,
@@ -998,8 +1000,7 @@
       "2026-08-04": 39,
       "2026-08-07": 167,
       "2026-08-09": 82,
-      "2026-08-10": 59,
-      "2026-08-13": 2
+      "2026-08-10": 59
     }
   }
 ]
