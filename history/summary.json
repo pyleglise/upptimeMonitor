@@ -358,7 +358,7 @@
       "2026-02-14": 225,
       "2026-02-15": 208,
       "2026-02-16": 73,
-      "2026-10-17": 1009,
+      "2026-10-17": 1133,
       "2026-10-16": 1440,
       "2026-10-15": 1440,
       "2026-10-14": 1440,
@@ -608,16 +608,16 @@
     "url": "https://intranet.voilenature.com/",
     "icon": "https://icons.duckduckgo.com/ip3/intranet.voilenature.com.ico",
     "slug": "intranet-voile-nature",
-    "status": "down",
-    "uptime": "98.65%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "98.42%",
-    "uptimeMonth": "98.73%",
-    "uptimeYear": "98.65%",
+    "status": "up",
+    "uptime": "98.63%",
+    "uptimeDay": "91.44%",
+    "uptimeWeek": "97.20%",
+    "uptimeMonth": "98.45%",
+    "uptimeYear": "98.63%",
     "time": 706,
-    "timeDay": 575,
-    "timeWeek": 902,
-    "timeMonth": 891,
+    "timeDay": 805,
+    "timeWeek": 916,
+    "timeMonth": 895,
     "timeYear": 706,
     "dailyMinutesDown": {
       "2026-07-26": 28,
@@ -661,7 +661,7 @@
       "2026-09-21": 238,
       "2026-09-26": 125,
       "2026-10-10": 159,
-      "2026-10-17": 1
+      "2026-10-17": 123
     }
   },
   {
